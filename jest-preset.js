@@ -4,8 +4,8 @@ module.exports = {
     ],
     "transform": {
         "^.+\\.tsx?$": "ts-jest",
-        "^.+\\.html$": "./transform/html.js",
-        "^.+\\.css$": "./transform/css.js"
+        "^.+\\.html$": `${__dirname}/transform/html.js`,
+        "^.+\\.css$": `${__dirname}/transform/css.js`
     },
     "testEnvironment": "jsdom"
 }
