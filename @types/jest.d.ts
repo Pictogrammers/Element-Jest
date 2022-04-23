@@ -1,2 +1,9 @@
-/// <reference path="css.d.ts" />
-/// <reference path="html.d.ts" />
+declare module '*.css' {
+    const value: string;
+    export default value
+}
+
+declare module '*.html' {
+    const value: string;
+    export default value
+}
