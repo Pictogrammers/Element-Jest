@@ -1,8 +1,9 @@
 {
   "name": "@pictogrammers/element-jest",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "@pictogrammers/element Shared Jest Config",
   "main": "jest-preset.js",
+  "types": "./@types/jest.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
