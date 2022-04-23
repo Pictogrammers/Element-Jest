@@ -1,0 +1,23 @@
+{
+  "name": "@pictogrammers/element-jest",
+  "version": "0.1.0",
+  "description": "@pictogrammers/element Shared Jest Config",
+  "main": "jest-preset.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pictogrammers/Element-Jest.git"
+  },
+  "author": "Austin Andrews (Templarian)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pictogrammers/Element-Jest/issues"
+  },
+  "homepage": "https://github.com/Pictogrammers/Element-Jest#readme",
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "ts-jest": "^27.1.4"
+  }
+}
