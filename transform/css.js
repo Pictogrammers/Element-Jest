@@ -1,6 +1,8 @@
 module.exports = {
-    process(src, filename, config, options) {
+    process(sourceText, sourcePath, options) {
         // Ignore CSS Entirely
-        return `module.exports = ""`;
-    }
-}
+        return {
+            code: `module.exports = "";`,
+        };
+    },
+};

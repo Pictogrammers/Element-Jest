@@ -1,6 +1,6 @@
 {
   "name": "@pictogrammers/element-jest",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "@pictogrammers/element Shared Jest Config",
   "main": "jest-preset.js",
   "types": "index.d.ts",
