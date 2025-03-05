@@ -2,7 +2,7 @@ module.exports = {
     process(sourceText, sourcePath, options) {
         // Ignore CSS Entirely
         return {
-            code: `module.exports = "";`,
+            code: `module.exports = null;`,
         };
     },
 };
